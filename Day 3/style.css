@@ -1,0 +1,11 @@
+bg
+h2{
+    color: red;
+    text-align: center;
+    border: 5px solid black; ;
+}
+p{
+    color: pink;
+}
+li{
+display: inline;}
