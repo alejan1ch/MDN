@@ -44,6 +44,12 @@ header{
     font-size: 45px;
     cursor: pointer;
 }
+.logo:hover i{
+    background: #2ecc71;
+    border: 2px solid #eee;
+    color: #eee;
+    transition: 0.4s;
+}
 nav .hamb{
     width: 35px;
     height: 24px;
@@ -92,4 +98,10 @@ nav .nav-list li.btn a{
     line-height: 1.3;
     color: #2ecc71;
     font-weight: 500;
+}
+nav .nav-list li.btn:hover a{
+    background: #2ecc71;
+    border-color: #eee;
+    color:#eee;
+    transition: 0.4s;
 }
