@@ -154,3 +154,31 @@ span{
     background-color: #2ecc71;
     transition: .4s;
 }
+.container .hero-text button{
+    color: #eee;
+    background: #2ecc71;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 2px solid #2ecc71;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+}
+.container .hero-text button:hover{
+    background-color: #eee;
+    color: #2ecc71;
+    border: 2px solid #eee;
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+.bottom{
+    margin-top: 243px;
+    padding-bottom: 40px ;
+}
+.bottom p{
+    color: #eee;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
