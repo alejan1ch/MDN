@@ -29,3 +29,11 @@ a:visited{
 a:hover{
     color: purple;
 }
+p{
+    color: black;
+}
+@media(min-width:768px) {
+    body{
+        background-color: aquamarine;
+    }
+}
