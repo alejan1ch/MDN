@@ -1,12 +1,19 @@
-#special{
-    background-color: yellow;
+a:link{
+    color: orange;
 }
-.alert{
-    border: 1px solid grey;
+a:visited{
+    color: green;
 }
-.alert.stop{
-    background-color: red;
+a:hover{
+    text-decoration: none;;
 }
-.alert.go{
-    background-color: green;
+div > :first-child{
+    font-size: 150%;
 }
+div > :first-child::first-line{
+    color: red;
+}
+tr:nth-child(even) {
+    background-color: #333;
+    color: white;
+  }
