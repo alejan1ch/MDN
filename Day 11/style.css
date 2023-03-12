@@ -1,19 +1,9 @@
-a:link{
-    color: orange;
-}
-a:visited{
-    color: green;
-}
-a:hover{
-    text-decoration: none;;
-}
-div > :first-child{
-    font-size: 150%;
-}
-div > :first-child::first-line{
+h2 + p{
     color: red;
 }
-tr:nth-child(even) {
-    background-color: #333;
-    color: white;
-  }
+
+ul.list > li {
+    border-bottom: 1px solid grey;
+    list-style-type: none ;
+    
+}
