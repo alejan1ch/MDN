@@ -1,15 +1,13 @@
-a{
-    border: 5px solid grey;
-}
-li{
-    margin: 10px;
-}
-a[title] {
-    border-color: pink;
-} 
-a[href*="contact"]{
-    border-color: orange;
-}
-a[href^="https"]{
-    border-color: green;
+#outer div ul .nav a {
+    background-color: powderblue;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  div div li a {
+    color: rebeccapurple;
+  }             
+#outer div ul .nav a{
+    background-color: initial;
 }
